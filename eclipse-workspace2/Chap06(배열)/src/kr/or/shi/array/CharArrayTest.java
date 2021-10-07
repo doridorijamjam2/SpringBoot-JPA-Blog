@@ -1,0 +1,28 @@
+package kr.or.shi.array;
+
+import java.util.Arrays;
+
+public class CharArrayTest {
+
+	public static void main(String[] args) {
+		char[] alpahbets = new char[26];
+		char ch = 'A';
+		
+		//A,65
+		//B,66
+		//...
+		//Z,90
+		
+		
+		for(int i=0; i<alpahbets.length; i++) {
+			alpahbets[i] = ch++;
+		}
+		for(int i=0; i<alpahbets.length; i++) {
+			System.out.println(alpahbets[i] + "," + (int)alpahbets[i]);
+		}
+		
+        
+
+	}
+
+}
