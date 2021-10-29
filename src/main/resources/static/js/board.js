@@ -36,7 +36,8 @@
 	} 	,
 	
 		deleteById: function(){
-			let id = $("#id").text();
+			let id = $("#id").text()
+		
 			
 		$.ajax({
 			type: "DELETE",
