@@ -20,7 +20,4 @@ public class Member {
 		this.password = password;
 		this.email = email;
 	}
-	
-	
-
 }
